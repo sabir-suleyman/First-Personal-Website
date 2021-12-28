@@ -1,0 +1,175 @@
+  html {
+      scroll-behavior: smooth;
+      overflow-x:hidden;
+  }
+  body {
+      margin:  0;
+      padding: 0;
+  }
+
+  .icerik {
+    width: 100%;
+    height: 100%;
+  }
+  #arkaplan {
+      position: relative;
+  }
+
+
+ #arkaplan video {
+     height: 100vh;
+     width: 100%;
+     background-position: absolute;
+     z-index: -1;
+     object-fit: cover;
+ }
+
+
+ #arkaplan .icerik{
+     background: rgba(0, 0, 0, 0.5);
+     height: 100%;
+     width:  100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     text-align: left;
+     display: flex;
+     justify-content: left;
+ }
+
+
+ #arkaplan .icerik p {
+    font-size: 25px;
+    color: rgb(63, 61, 94);
+    font-family: Arial,sans-serif;
+    text-align: left;
+}
+.icons {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+
+}
+
+.sosyal {
+    margin: auto 20px 20px auto;    
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #d4d7de;  /*  Burani  silib de yoxla */
+  width:  100%;
+  height: 78px;
+  z-index: 1;
+}
+
+.nav {
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  margin-right: 15%;
+  font-weight: bold;
+}
+
+.logo {
+   flex: 1 1 auto;
+   margin-left: 10%;
+  /* text-transform: uppercase; */
+   letter-spacing: 1px;
+   font-weight: bold;
+   font-size: 35px;
+}
+
+a {
+  margin: 15px;
+  color: #000;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  font-family: sans-serif;
+}
+
+a:hover {
+  color:rgb(35, 152, 248);
+}
+
+
+.banner-area {
+  position: relative;
+ /* background-image: url(2.jpg); */
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  
+}
+
+.contact-area {
+  background-image: url(iletisim1.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.services-area {
+  background-image: url(portfolio2.jpg);
+  width: 100%;
+  height: 500px;
+}
+
+.portfolio-area {
+  background-image: url(hakkimda2.jpg);
+  
+
+  width: 100%;
+  height: 700px;
+}
+
+
+.about-area , .portfolio-area, .services-area , .contact-area {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  height: 700px;
+}
+
+.text-part {
+  width: 90%;
+  height: 88%;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+
+p {
+  font-size: 24px;
+  line-height: 50px;
+  
+}
+
+
+
+/*
+.about-area , .services-area {
+  background: #fefefe;
+}
+
+*/
+
+/*
+.portfolio-area , .contact-area {
+  background: #262626;
+  color: #fff;
+}
+*/
