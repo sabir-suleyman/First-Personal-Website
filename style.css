@@ -119,14 +119,13 @@ a:hover {
 .services-area {
   background-image: url(work.jpg);
   width: 100%;
-  height: 500px;
+  height: 100%;
 }
 
 .portfolio-area {
- 
-
-  width: 100%;
-  height: 700px;
+  background-image: url(backimage.jpg);
+  width: 90%;
+  height: 88%;
 }
 
 
@@ -145,6 +144,8 @@ a:hover {
   width: 90%;
   height: 88%;
 }
+
+
 
 h1 {
   font-size: 40px;
